@@ -1,7 +1,23 @@
-/*primary color*/
-.bg-cream {
-    background-color: #FFF2E1;
-}
+::-webkit-scrollbar {
+    width: 0em; /* Adjust as needed */
+    height: 0em; /* Adjust as needed */
+  }
+  
+  /* Style of the scrollbar track (the empty space) */
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Transparent track */
+  }
+  
+  /* Style of the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Transparent thumb */
+    border-radius: 0; /* Remove rounded corners */
+  }
+  
+  /* Style of the scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: transparent; /* Transparent thumb on hover */
+  }
 
 /*font*/
 body {
